@@ -153,6 +153,10 @@ pickle.dump(rf_random,file)
 
 ![SCREENSHOT](https://github.com/mohammedaz33m/Car_Price_Prediction/blob/main/Images/final2.jpg)
 
-# Thank you for your time
+## Thank you for your time
 
-#### Special thanks to Krish Naik for the support
+
+
+
+
+- >  Special thanks to Krish Naik for the support
