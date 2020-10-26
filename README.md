@@ -95,7 +95,7 @@ pickle.dump(rf_random,file)
 
 - > First open Anaconda prompt 
 
-- > activatie your env(environment_name) (Enter) 
+- > activate your env(environment_name) (Enter) 
 
 - > Change directory to the folder of your Jupyter notebook (cd directory name)
 
@@ -103,11 +103,11 @@ pickle.dump(rf_random,file)
 
 ## Copy these files in your folder
 
-- create a ```app.py``` file (use the one above: copy paste in new JPntebook & download as .py file)
+- create a ```app.py``` file (use the one above: copy paste in new Jupyterntebook & download as ```.py``` file)
 
 - Create a ```.html``` file (use from above repo) remember to place this in subfolder```templates``` inside your main folder of project
 
-- Also have ```procfile``` in your repo & have this ```web: gunicorn app:app```: use add file option in GitHub & save without any extension
+- Also have ```procfile``` in your repo & have this ```web: gunicorn app:app```- use add file option in GitHub & save without any extension
 
 ### Again open Anaconda prompt
 
@@ -119,7 +119,7 @@ pickle.dump(rf_random,file)
 
 - > type ```pip install requests``` (Enter)
 
-- > Install other files using pip if prompted (example sklearn missing so use``pip install sklearn```)
+- > Install other files using pip if prompted (example sklearn missing so use```pip install sklearn```)
 
 - > Now change the directory to the project folder where you had saved your JP notebook initially useing ```cd desktop>B-drive>projectfolder``` (This is a dummy path. get your path here)
 
@@ -128,6 +128,8 @@ pickle.dump(rf_random,file)
 
 - > When it runs successfully locate the Address ```http://127.0.0.1:5000/```
 ![SCREENSHOT](https://github.com/mohammedaz33m/Car_Price_Prediction/blob/main/Images/address.JPG)
+
+- > Copy paste the address in any browser window & check the functionality of your app.
 
 
 # Deployment 
@@ -146,6 +148,10 @@ pickle.dump(rf_random,file)
 ### Once it successfully deploys hit View
 ![SCREENSHOT](https://github.com/mohammedaz33m/Car_Price_Prediction/blob/main/Images/view.JPG)
 
+## The Final outcome
+![SCREENSHOT](https://github.com/mohammedaz33m/Car_Price_Prediction/blob/main/Images/final1.PNG)
+
+![SCREENSHOT](https://github.com/mohammedaz33m/Car_Price_Prediction/blob/main/Images/final2.JPG)
 # Thank you for your time
 
 #### Special thanks to Krish Naik for the support
