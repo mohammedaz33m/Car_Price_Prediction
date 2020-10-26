@@ -8,7 +8,7 @@
 ![Issues](https://img.shields.io/github/issues/mohammedaz33m/Car_Price_Prediction?style=plastic) ![forks](https://img.shields.io/github/forks/mohammedaz33m/Car_Price_Prediction?style=plastic) ![stars](https://img.shields.io/github/stars/mohammedaz33m/Car_Price_Prediction?style=plastic)
 
 ## For App Demo, please Click the link below:
-### ......................................................https://car-price-predictor-2020.herokuapp.com/...................................
+### ......................................................https://car-price-predictor-2020.herokuapp.com/
 
   .......................![SCREENSHOT](https://github.com/mohammedaz33m/Car_Price_Prediction/blob/main/Images/app_layout.JPG) 
 
@@ -51,7 +51,7 @@
 
 ![SCREENSHOT](https://github.com/mohammedaz33m/Car_Price_Prediction/blob/main/Images/describe.JPG)  
 
-### 3. PLot visualization
+### 3. Plot visualization
 ![SCREENSHOT](https://github.com/mohammedaz33m/Car_Price_Prediction/blob/main/Images/owner.JPG)   
 
 ![SCREENSHOT](https://github.com/mohammedaz33m/Car_Price_Prediction/blob/main/Images/year.JPG)
