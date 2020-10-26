@@ -149,9 +149,10 @@ pickle.dump(rf_random,file)
 ![SCREENSHOT](https://github.com/mohammedaz33m/Car_Price_Prediction/blob/main/Images/view.JPG)
 
 ## The Final outcome
-![SCREENSHOT](https://github.com/mohammedaz33m/Car_Price_Prediction/blob/main/Images/final1.PNG)
+![SCREENSHOT](https://github.com/mohammedaz33m/Car_Price_Prediction/blob/main/Images/final1.png)
 
-![SCREENSHOT](https://github.com/mohammedaz33m/Car_Price_Prediction/blob/main/Images/final2.JPG)
+![SCREENSHOT](https://github.com/mohammedaz33m/Car_Price_Prediction/blob/main/Images/final2.jpg)
+
 # Thank you for your time
 
 #### Special thanks to Krish Naik for the support
