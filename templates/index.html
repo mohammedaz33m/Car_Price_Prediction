@@ -5,31 +5,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sell your car at fair price</title>
+     <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.5/css/mdb.min.css" rel="stylesheet">
+    <style>
+        body {
+            text-align: center;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
 </head>
 
 <body>
-
-    <div style="color:#000000">
+    <div class="container" style="color:#000000">
         <form action="{{ url_for('predict')}}" method="post">
-            <h2>Car Price Predictor</h2>
-            <h3>Year</h3>
-            <input id="first" name="Year of Purchase" type="number ">
-            <h3>Showroom Price (In lakhs: eg:8 /9..)</h3><br><input id="second" name="Present_Price" required="required">
-            <h3>Kilometers Driven Till Date?</h3><input id="third" name="Kms_Driven" required="required">
-            <h3>How much owners previously had the car(0 or 1 or 3) ?</h3><br><input id="fourth" name="Owner" required="required">
-            <h3>What Is the Fuel type?</h3><br><select name="Fuel_Type_Petrol" id="fuel" required="required">
-                <option value="Petrol">Petrol</option>
-                <option value="Diesel">Diesel</option>
-                <option value="CNG">CNG</option>
-            </select>
-            <h3>Are you A Dealer or Individual</h3><br><select name="Seller_Type_Individual" id="resea" required="required">
-                <option value="Dealer">Dealer</option>
-                <option value="Individual">Individual</option>
-            </select>
-            <h3>Transmission type</h3><br><select name="Transmission_Mannual" id="research" required="required">
-                <option value="Mannual">Manual Car</option>
-                <option value="Automatic">Automatic Car</option>
-            </select>
+            <h2><b>Car Price Predictor</b></h2>
+            <hr>
+            <h5>Year</h5>
+                <input id="first" name="Year of Purchase" type="number">
+            <h5>Showroom Price (In lakhs: eg: 8/9/10..)</h5>
+                <input id="second" name="Present_Price" required="required">
+            <h5>Kilometers Driven Till Date?</h5>
+                <input id="third" name="Kms_Driven" required="required">
+            <h5>How much owners previously had the car(0 or 1 or 2) ?</h5>
+                <input id="fourth" name="Owner" required="required">
+            <h5>What Is the Fuel type?</h5>
+                <select name="Fuel_Type_Petrol" id="fuel" required="required">
+                    <option value="Petrol">Petrol</option>
+                    <option value="Diesel">Diesel</option>
+                    <option value="CNG">CNG</option>
+                </select>
+            <h5>Are you A Dealer or Individual</h5>
+                <select name="Seller_Type_Individual" id="resea" required="required">
+                    <option value="Dealer">Dealer</option>
+                    <option value="Individual">Individual</option>
+                </select>
+            <h5>Transmission type</h5>
+                <select name="Transmission_Mannual" id="research" required="required">
+                    <option value="Mannual">Manual Car</option>
+                    <option value="Automatic">Automatic Car</option>
+                </select>
             <br><br><button id="sub" type="submit ">Calculate the Selling Price</button>
             <br>
 
@@ -38,11 +56,8 @@
 
         </form>
 
-
-
-        <br><br><h3>{{ prediction_text }}<h3>
+        <br><br><h3><b>{{ prediction_text }}</b></h3>
     </div>
-
 
 
 
@@ -55,7 +70,9 @@
             text-align: center;
             padding: 5px;
         }
-        
+        h5 {
+             padding: 5px;
+        }
         #research {
             font-size: 18px;
             width: 100px;
@@ -90,7 +107,7 @@
         }
         
         #fuel:hover {
-            background-color: cyan;
+            background-color: #66CDAA;
         }
         
         #research {
@@ -102,7 +119,7 @@
         }
         
         #research:hover {
-            background-color: cyan;
+            background-color: #66CDAA;
         }
         
         #resea {
@@ -114,7 +131,7 @@
         }
         
         #resea:hover {
-            background-color: cyan;
+            background-color: #66CDAA;
         }
         
         #sub {
@@ -126,37 +143,37 @@
         }
         
         #sub:hover {
-            background-color: green;
+            background-color: #20B2AA;
         }
         
         #first {
             border-radius: 14px;
-            height: 25px;
-            font-size: 20px;
             text-align: center;
         }
         
         #second {
             border-radius: 14px;
-            height: 25px;
-            font-size: 20px;
             text-align: center;
         }
         
         #third {
             border-radius: 14px;
-            height: 25px;
-            font-size: 20px;
             text-align: center;
         }
         
         #fourth {
             border-radius: 14px;
-            height: 25px;
-            font-size: 20px;
             text-align: center;
         }
     </style>
+        <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.5/js/mdb.min.js"></script>
 </body>
 
 </html>
