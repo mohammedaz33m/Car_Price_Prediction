@@ -8,9 +8,8 @@
 ![Issues](https://img.shields.io/github/issues/mohammedaz33m/Car_Price_Prediction?style=plastic) ![forks](https://img.shields.io/github/forks/mohammedaz33m/Car_Price_Prediction?style=plastic) ![stars](https://img.shields.io/github/stars/mohammedaz33m/Car_Price_Prediction?style=plastic)
 
 ## For App Demo, please Click the link below:
-### __ https://car-price-prediction-20.herokuapp.com/
+### https://car-price-prediction-20.herokuapp.com/
 
- ____________ ![SCREENSHOT](https://github.com/mohammedaz33m/Car_Price_Prediction/blob/main/Images/app_layout.JPG) 
 
 ![SCREENSHOT](https://github.com/mohammedaz33m/Car_Price_Prediction/blob/main/Images/htmledit.JPG)
 
@@ -52,13 +51,25 @@
 ![SCREENSHOT](https://github.com/mohammedaz33m/Car_Price_Prediction/blob/main/Images/describe.JPG)  
 
 ### 3. Plot visualization
-![SCREENSHOT](https://github.com/mohammedaz33m/Car_Price_Prediction/blob/main/Images/owner.JPG)   
+From the graph it is clear that the selling price is more for theose used by lesser number of owners
+![SCREENSHOT](https://github.com/mohammedaz33m/Car_Price_Prediction/blob/main/Images/owner.JPG) 
+
+
+This shows that the price of the cars from recent years have good resale value comared to the older. Quite logical!. 
+One of the interesting thing to note here is that the trend eas not quite increasing, for years 2010-2012 there was a decrease in value even when the model was from recent years. #Reality :).
 
 ![SCREENSHOT](https://github.com/mohammedaz33m/Car_Price_Prediction/blob/main/Images/year.JPG)
+ 
+
+From the plot we can observe that, the Vehicle fuel type- ```Diesel``` accounts for the majority of the data set whereas ```petrol``` & ```CNG``` have almost same in numbers, ```petrol``` being slightly greater.
 
 ![SCREENSHOT](https://github.com/mohammedaz33m/Car_Price_Prediction/blob/main/Images/fueltype.JPG)
 
+
+This plot tells about the ```selling price``` vs ```Kms_driven```, we can observe that the most of the range lies within ```10,000 kms```
+
 ![SCREENSHOT](https://github.com/mohammedaz33m/Car_Price_Prediction/blob/main/Images/kmdriven.JPG)
+
 
 
 ### 4. Final dataset 
@@ -103,11 +114,11 @@ pickle.dump(rf_random,file)
 
 ## Copy these files in your folder
 
-- create a ```app.py``` file (use the one above: copy paste in new Jupyterntebook & download as ```.py``` file)
+- create a ```app.py``` file (use the one above: copy paste in new JupyterNtebook & download as ```.py``` file)
 
 - Create a ```.html``` file (use from above repo) remember to place this in subfolder```templates``` inside your main folder of project
 
-- Also have ```procfile``` in your repo & have this ```web: gunicorn app:app```- use add file option in GitHub & save without any extension
+- Also have ```procfile``` in your repo & have this ```web: gunicorn app:app```- use ```add file``` option in GitHub & save without any extension
 
 ### Again open Anaconda prompt
 
@@ -151,7 +162,7 @@ pickle.dump(rf_random,file)
 ## The Final outcome
 ![SCREENSHOT](https://github.com/mohammedaz33m/Car_Price_Prediction/blob/main/Images/final1.png)
 
-![SCREENSHOT](https://github.com/mohammedaz33m/Car_Price_Prediction/blob/main/Images/final2.jpg)
+   ![SCREENSHOT](https://github.com/mohammedaz33m/Car_Price_Prediction/blob/main/Images/final2.jpg)
 
 ## Thank you for your time
 
