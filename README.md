@@ -8,7 +8,7 @@
 ![Issues](https://img.shields.io/github/issues/mohammedaz33m/Car_Price_Prediction?style=plastic) ![forks](https://img.shields.io/github/forks/mohammedaz33m/Car_Price_Prediction?style=plastic) ![stars](https://img.shields.io/github/stars/mohammedaz33m/Car_Price_Prediction?style=plastic)
 
 ## For App Demo, please Click the link below:
-### ____________________________ https://car-price-predictor-2020.herokuapp.com/
+### __ https://car-price-predictor-2020.herokuapp.com/
 
  ____________ ![SCREENSHOT](https://github.com/mohammedaz33m/Car_Price_Prediction/blob/main/Images/app_layout.JPG) 
 
